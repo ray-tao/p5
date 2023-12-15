@@ -39,8 +39,8 @@ h1 {
 .leaves1,
 .leaves2,
 .leaves3 {
-    gap: 1vw;
-    margin-top: 1vw;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .leaf {
@@ -64,17 +64,26 @@ a:hover {
 
 /* home */
 
+.home-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 10%;
+}
+
 .home-h1-box {
     width: 500px;
     height: 100px;
     background-color: rgb(35, 45, 20);
-    margin-bottom: 7.5vw;
+    margin-bottom: 100px;
     border-radius: 50px;
 }
 
 .home-h1 {
     color: darkolivegreen;
-    font-size: 120px;
+    font-size: 110px;
 }
 
 /* 01 desktop */
@@ -99,12 +108,17 @@ a:hover {
 
 /* 03 qr code */
 
+#qr-code-box {
+    padding: 50px;
+}
+
 .qr-code-bg {
     background-color: #2e0505;
 }
 
 .qr-code-h1 {
     color: #873737;
+    padding-bottom: 20px;
 }
 
 /* 04 glitch */
@@ -171,7 +185,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 50px;
 }
 
 .song-control {
@@ -215,7 +229,7 @@ a:hover {
 
 #color-palette {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-top: 2.5vw;
 }
