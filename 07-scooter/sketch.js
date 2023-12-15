@@ -1,7 +1,7 @@
 let vid;
 
 function setup() {
-    createCanvas(300, 500);
+    createCanvas(325, 525);
 
     vid = createVideo(["./assets/scooter_ride.mp4"], vidLoad);
 

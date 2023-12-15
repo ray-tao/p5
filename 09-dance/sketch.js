@@ -1,7 +1,7 @@
 let song;
 let fft;
 let canvasBackground = "#3c0019";
-let waveColor = "#87003c";
+let waveColor = "#de0064";
 
 function preload() {
     song = loadSound("./assets/tomcbumpz.mp3");
