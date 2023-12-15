@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5vh;
+    font-family: "Poiret One", sans-serif;
+    flex-direction: column;
+}
+
+canvas {
+    display: block;
+}
+
+#rounded-canvas {
+    border-radius: 100px;
+}
+
+h1,
+body,
+.canvas,
+.leaves1,
+.leaves2,
+.leaves3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 4vw;
+}
+
+.leaves1,
+.leaves2,
+.leaves3 {
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+.leaf {
+    width: 120px;
+    height: 110px;
+    border-radius: 0 50px;
+    background-color: #537c53;
+    transform: rotate(0deg);
+}
+
+a {
+    color: rgb(43, 62, 11);
+    font-size: 90px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    cursor: grab;
+}
+
+/* home */
+
+.home-h1-box {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(35, 45, 20);
+    margin-bottom: 7.5vw;
+    border-radius: 50px;
+}
+
+.home-h1 {
+    color: darkolivegreen;
+    font-size: 120px;
+}
+
+/* 01 desktop */
+
+.desktop-bg {
+    background-color: #1a1e00;
+}
+
+.desktop-h1 {
+    color: #778913;
+}
+
+/* 02 black hole */
+
+.black-hole-bg {
+    background-color: #2b241c;
+}
+
+.black-hole-h1 {
+    color: #9d8d78;
+}
+
+/* 03 qr code */
+
+.qr-code-bg {
+    background-color: #2e0505;
+}
+
+.qr-code-h1 {
+    color: #873737;
+}
+
+/* 04 glitch */
+
+.glitch-bg {
+    background-color: #282823;
+}
+
+.glitch-h1 {
+    color: #a09691;
+}
+
+/* 05 on water */
+
+.on-water-bg {
+    background-color: #122124;
+}
+
+.on-water-h1 {
+    color: #5f9ea0;
+}
+
+/* 06 falling stars */
+
+.falling-stars-bg {
+    background-color: #0f1028;
+}
+
+.falling-stars-h1 {
+    color: #7c80b9;
+}
+
+/* 07 scooter ride */
+
+.scooter-ride-bg {
+    background-color: #2c0627;
+}
+
+.scooter-ride-h1 {
+    color: #a85e9e;
+}
+
+/* 08 spotlight */
+.spotlight-bg {
+    background-color: #2b1500;
+}
+
+.spotlight-h1 {
+    color: #ac6713;
+}
+
+/* 09 dance */
+
+.dance-bg {
+    background-color: #3c0019;
+}
+
+.dance-h1 {
+    color: #de0064;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.song-control {
+    display: flex;
+    gap: 1vw;
+}
+#song-upload > input {
+    display: none;
+}
+
+#song-upload,
+#play-button,
+#pause-button {
+    background: #3c0019;
+    color: #de0064;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 2px solid #de0064;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play-button,
+#pause-button {
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1/1;
+}
+
+#song-upload {
+    height: 30px;
+}
+
+#pause-button {
+    font-size: small;
+}
+
+#color-palette {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 2.5vw;
+}
+
+#color-palette > button {
+    all: unset;
+    width: 35px;
+    height: 35px;
+    border: 3px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}

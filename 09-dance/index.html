@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <meta charset="utf-8" />
+    </head>
+
+    <body class="dance-bg">
+        <div class="top-bar">
+            <h1 class="dance-h1">09. dance</h1>
+            <div class="song-control">
+                <label id="song-upload">
+                    upload song
+                    <input type="file" accept="audio/*" />
+                </label>
+                <button id="play-button">▹</button>
+                <button id="pause-button">||</button>
+            </div>
+        </div>
+        <main class="canvas"></main>
+        <div id="color-palette">
+            <button id="desktop" class="#1a1e00 #778913"></button>
+            <button id="black-hole" class="#2b241c #9d8d78"></button>
+            <button id="qr-code" class="#2e0505 #c27a7a"></button>
+            <button id="on-water" class="#122124 #5f9ea0"></button>
+            <button id="falling-stars" class="#0f1028 #7c80b9"></button>
+            <button id="scooter-ride" class="#2c0627 #a85e9e"></button>
+            <button id="spotlight" class="#2b1500 #ac6713"></button>
+            <button id="dance" class="#3c0019 #de0064"></button>
+        </div>
+
+        <script src="sketch.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
